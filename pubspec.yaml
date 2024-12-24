@@ -1,0 +1,35 @@
+name: bloc_with_bnb
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.2
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+
+flutter_launcher_icons:
+  android: true
+  iso: true
+  image_path: 'assets/icons/ic_launcher.png'
+  adaptive_icon_foreground: 'assets/icons/ic_launcher.png'
+  adaptive_icon_background: '#ffffff'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
